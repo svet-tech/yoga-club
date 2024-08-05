@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .last_block {
+            display: flex;
+            margin: auto 10px;
+            background-color: rgb(232, 222, 241);
+            height: 900px;
+            border-top-right-radius: 80px;
+
+        }
+
+        .container {
+            width: 20%;
+            height: 400px;
+            border: solid black 0.5px;
+            background-color: rgba(241, 236, 229, 0.87);
+            border-radius: 45px;
+            padding: 30px;
+            margin: 10px;
+            position: relative;
+
+        }
+
+        .container:hover {
+            position: relative;
+            transform: scale(1.1, 1.2);
+            z-index: 2;
+
+        }
+
+        .container>h3 {
+            text-align: center;
+        }
+
+        .container>p {
+            font-size: 17px;
+        }
+
+        .container>h3:nth-child(3) {
+            padding-left: 10px;
+        }
+
+        #imagecard {
+            float: right;
+            padding: 0;
+            width: 50px;
+            height: 50px;
+        }
+
+        .circlewhite {
+            width: 54px;
+            height: 40px;
+            border: solid;
+            border-radius: 50%;
+            box-shadow: 1px 1px 2px;
+            background-color: beige;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            font-style: italic;
+            text-shadow: -1px -2px 1px rgb(247, 141, 247);
+            padding-top: 11px;
+            float: left;
+            position: absolute;
+            left: -18px;
+            top: -0.5px;
+            z-index: 1;
+        }
+
+        .circlecolor {
+            width: 60px;
+            height: 46px;
+            border: solid;
+            border-radius: 50%;
+            box-shadow: 1px 1px 2px;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            padding-top: 14px;
+            background-color: rgb(146, 104, 219);
+            float: left;
+            left: -18px;
+            top: -0.5px;
+            position: absolute;
+        }
+
+        .container:nth-child(2)>.circlecolor {
+
+            background-color: rgb(223, 114, 114);
+
+        }
+
+        .container:nth-child(3)>.circlecolor {
+            background-color: rgb(27, 244, 248);
+
+        }
+
+        .container:nth-child(4)>.circlecolor {
+            background-color: rgb(207, 49, 189);
+        }
+
+        .container-2 {
+            top: 100px;
+        }
+
+        .container-3 {
+            top: 200px;
+        }
+
+        .container-4 {
+            top: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <p><a href="./index.html">На главную</a></p>
+    <section class="last_block">
+        <div class="container container-1">
+            <div class="circlewhite">A</div>
+            <div class="circlecolor"></div>
+
+            <img id="imagecard" src="./Static/Images/yogq.jpg" alt="picture_yoga">
+
+            <h3>Йога
+
+            </h3>
+            <p> Йога - очень древняя практика для поиска целостности в занятиях и в жизни. Это философия, древнее
+                учение, которое развивает человека всесторонне - через тело, ум и эмоции. <br>Практики йоги дают
+                заряд бодрости, позволяют
+                снизить уровень стресса, обрести спокойствие и внутреннюю уверенность, корректируют вес и повышают
+                работоспособность. Также йога помогает
+                восстановиться после болезней и травм. <br>Занятия йогой поддерживают здоровье, выносливость и
+                отличную
+                форму, а также помогают достичь гармонии физического и психологического состояния.</p>
+        </div>
+        <div class="container container-2">
+
+            <div class="circlewhite">B</div>
+            <div class="circlecolor"></div>
+            <img id="imagecard" src="./Static/Images/pilates_images.jpg" alt="">
+
+            <h3>Пилатес</h3>
+
+            <p> Пилатес - система тренировок, которая укрепляет мышцы, выравнивает осанку, развивает гибкость
+                Направление разработал Джозеф Пилатес в начале прошлого века как систему реабилитации
+                солдат, пострадавших во время войны. Сегодня пилатесом занимаются для поддержания хорошей физической
+                формы.
+                <br>
+                Большая часть тренировки проходит на полу.
+                Акцент в пилатесе стоит не на количестве выполненных упражнений, а на их качестве. Поэтому
+                тренировка проходит в медленном темпе, с концентрацией на ощущениях и дыхании.
+
+            </p>
+        </div>
+        <div class="container container-3">
+            <div class="circlewhite">C</div>
+            <div class="circlecolor"></div>
+            <img id="imagecard"
+                src="./Static/Images/png-transparent-exercise-pregnancy-yoga-pilates-pregnancy-miscellaneous-physical-fitness-photography-thumbnail.png"
+                alt="">
+
+            <h3>
+                Йогалатес
+                <p>(практики для начинающих)</p>
+            </h3>
+            <p>По своей сути (не углубляясь в философию) и йога, и пилатес имеют много общего и направлены на то,
+                чтобы человек научился слышать свое тело и управлять им. Это очень важный навык. Для тех, кто только
+                начинает занятия и исследования возможностей своего тела, в клубе разработан комплекс "Йогалатес" -
+                он дает представление и о йоге, и о
+                пилатесе. Комплекс включает общеразвивающие и укрепляющие практики на все группы мышц.
+            </p>
+        </div>
+        <div class="container container-4">
+            <div class="circlewhite">D</div>
+            <div class="circlecolor"></div>
+            <img id="imagecard" src="./Static/Images/1672454413_flomaster-club-p-yog-risunok-dlya-detei-oboi-35.jpg"
+                alt="">
+
+            <h3>
+                Дыхательные практики <br> и медитация
+            </h3>
+            <p>Дыхание - естественный процесс, который обеспечивает нам жизнь. Обычно мы не обращаем внимание на то,
+                как мы дышим. Соединение внимания и дыхания возвращает нас в текущий момент, помогает уменьшить
+                уровень стресса и очистить ум. Дыхательные практики и медитацию желательно сделать для себя полезной
+                привычкой, как ежедневную гигиену. На платформе клуба есть специальный раздел с дыхательными
+                практиками. <br>Для абонементов на 3 и 6 месяцев также доступны практики медитаций и музыка для
+                медитаций.
+
+
+            </p>
+        </div>
+
+    </section>
+</body>
+
+</html>

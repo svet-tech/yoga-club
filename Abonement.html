@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abonement</title>
+    <style>
+        body {
+
+            background-color: #d9d9f7;
+        }
+
+        .section {
+            margin: 50px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 40px;
+            color: #5D3427;
+            margin-bottom: 60px;
+            margin-top: 0;
+            padding-top: 0;
+        }
+
+        .info-text {
+            width: 100%;
+            /* height: fit-content; */
+            background-color: rgb(250, 243, 234);
+            color: #5D3427;
+            font-size: 18px;
+            border-radius: 15px;
+            padding: 13px;
+        }
+
+        .info-line {
+            display: flex;
+            justify-content: center;
+            gap: -40px;
+            align-items: center;
+            padding-top: 40px;
+
+        }
+
+        .item-info {
+            color: #6058c2;
+            font-size: 32px;
+            margin-bottom: 10px;
+            margin-right: 135px
+        }
+
+
+        .products-items {
+            display: grid;
+            grid-template-columns: repeat(3, 33%);
+            gap: 90px 24px;
+            margin: 75px auto;
+        }
+
+        .product-item {
+            background-color: rgb(249, 249, 248);
+            color: #5D3427;
+            border-radius: 15px;
+        }
+
+        .products-item-image {
+            height: 242px;
+            text-align: center;
+            background-color: #adacef;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+
+        .products-item-image img {
+            height: 242px;
+            max-width: 200px;
+            width: 60%;
+            border-radius: 40px;
+        }
+
+        .products-item-details {
+            padding: 24px;
+            background-color: rgb(250, 243, 234)
+        }
+
+        .products-item-title {
+
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .products-item-text {
+            height: 110px;
+            font-size: 14px;
+            line-height: 120%;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        .products-item-extra {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .products-item-price {
+
+            color: #5243F4;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+
+        .violet-button {
+            border-radius: 60px;
+            box-sizing: border-box;
+            padding: 18px;
+            text-align: center;
+            font-size: 18px;
+            cursor: pointer;
+            border: 0;
+            background-color: #5243F4;
+            color: white;
+        }
+
+        .violet-button:hover {
+            background-color: #3b2cd8;
+        }
+
+        .line2 {
+            width: 100%;
+            position: absolute;
+            top: 60px;
+            left: 0;
+            z-index: -1;
+        }
+
+        .line3 {
+            width: 100%;
+            position: absolute;
+            top: 1037px;
+            left: 0;
+            z-index: -1;
+        }
+    </style>
+
+</head>
+
+<body>
+    <p><a href="./index.html">На главную</a></p>
+
+    <section class="section">
+        <h2> О клубе и занятиях</h2>
+        <div class="info-text">
+
+            В клубе проходят ежедневные занятия по 40-60 мин. Безопасные, грамотные комплексы на все группы мышц
+            ведут опытные тренеры.
+            Регулярные занятия помогают держать фокус внимания на физическом и эмоциональном здоровье. Став
+            участником клуба Вы попадаете в сообщество единомышленников в чате, где делитесь успехами, сложностями,
+            общаетесь и поддерживаете друг друга. Также Вы получаете полное сопровождение от тренеров. Заниматься
+            можно с ноутбука, с планшета или с телефона - главное, чтобы был интернет. Записи клубных уроков
+            сохраняются на клубной платформе. Оценить формат тренировок Вы можете на пробном занятии.
+
+            <div class="info-line">
+                <div class="item-info">
+                    Бесплатно
+                </div>
+
+                <button class="violet-button">Пробное занятие</button>
+            </div>
+        </div>
+
+        <div class="products-items">
+            <div class="product-item">
+                <div class="products-item-image">
+                    <img src="./Static/Images/yoga_1.jpg" alt="">
+                </div>
+                <div class="products-item-details">
+                    <div class="products-item-title">
+                        Йога старт - 1месяц
+                    </div>
+                    <div class="products-item-text">
+                        Абонемент йога на один месяц - ежедневные практики длительностью 40-60мин. Практики с
+                        акцентом на разные направления: здоровье и укрепление спины, гибкость и растяжка, силовые
+                        комплексы, балансы.
+                    </div>
+                    <div class="products-item-extra">
+
+                        <div class="products-item-price">1500₽</div>
+
+
+                        <button class="violet-button">Купить абонемент</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="product-item">
+                <div class="products-item-image">
+                    <img src="./Static/Images/yoga_3.jpg" alt="">
+                </div>
+                <div class="products-item-details">
+                    <div class="products-item-title">
+                        Пилатес начало - 1месяц
+                    </div>
+                    <div class="products-item-text">
+                        Ежедневные тренировки 40-60 мин. Общеукрепляющий и развивающий комплекс на все тело.
+                        Абонемент на один месяц поможет Вам определиться с дальнейшим направлением тренировок. В
+                        течение недели тренировки чередуются по степени интенсивности - подходит для любого уровня
+                        подготовки.
+                    </div>
+                    <div class="products-item-extra">
+
+                        <div class="products-item-price">1500₽</div>
+
+                        <button class="violet-button">Купить абонемент</button>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="product-item">
+                <div class="products-item-image">
+                    <img src="./Static/Images/yoga-lates_1.jpg" alt="">
+                </div>
+                <div class="products-item-details">
+                    <div class="products-item-title">
+                        Начинающим - 1месяц
+                    </div>
+                    <div class="products-item-text">
+                        Для новичков важен мягкий старт, чтобы втянуться в занятия и не потерять интерес. Наша
+                        специальная программа для подготовки к занятиям с основным потоком - это сбалансированные
+                        тренировки на все части тела.
+                    </div>
+                    <div class="products-item-extra">
+
+                        <div class="products-item-price">1200₽</div>
+
+                        <button class="violet-button">Купить абонемент</button>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="product-item">
+                <div class="products-item-image">
+                    <img src="./Static/Images/yoga_4.jpg" alt="">
+                </div>
+                <div class="products-item-details">
+                    <div class="products-item-title">
+                        Йога middle - 3 месяца
+                    </div>
+                    <div class="products-item-text">
+                        Абонемент на три месяца - выгодное предложение для тех, кто решил заниматься своим здоровьем
+                        всерьез. Ежедневные занятия по 40-60 мин дополнены дыхательными практиками и доступом к
+                        практикам медитации.
+                    </div>
+                    <div class="products-item-extra">
+
+                        <div class="products-item-price">4000₽</div>
+
+                        <button class="violet-button">Купить абонемент</button>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="product-item">
+                <div class="products-item-image">
+                    <img src="./Static/Images/minimalist-female-line-apilates_1.jpg" alt="">
+                </div>
+                <div class="products-item-details">
+                    <div class="products-item-title">
+                        Пилатес кварто - 3 месяца
+                    </div>
+                    <div class="products-item-text">
+                        Для эффективных тренировок важна регулярность. Абонемент на три месяца - выгодное
+                        предложение для поддержания формы. Также Вам будут доступны дыхательные практики и медитация
+                        (подборка музыки и медитативные практики голосом).
+                    </div>
+                    <div class="products-item-extra">
+
+                        <div class="products-item-price">4000₽</div>
+
+
+                        <button class="violet-button">Купить абонемент</button>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="product-item">
+                <div class="products-item-image">
+                    <img src="./Static/Images/yoga_5.jpg" alt="">
+                </div>
+                <div class="products-item-details">
+                    <div class="products-item-title">
+                        Движение вперед - 3 месяца
+                    </div>
+                    <div class="products-item-text">
+                        Приглашаем развивать активность и выносливость, закреплять результат временем. Три иесяца -
+                        хороший срок для выработки полезных привычек.
+                        Также Вам будут доступны дыхательные практики и медитация (подборка музыки и медитативные
+                        практики голосом).
+                    </div>
+                    <div class="products-item-extra">
+
+                        <div class="products-item-price">3100₽</div>
+
+
+                        <button class="violet-button">Купить абонемент</button>
+
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="product-item">
+                <div class="products-item-image">
+                    <img src="./Static/Images/yoga-pose-line-2.jpg" alt="">
+                </div>
+                <div class="products-item-details">
+                    <div class="products-item-title">
+                        С йогой в сердце - 6 месяцев
+                    </div>
+                    <div class="products-item-text">
+                        Для абонемента на 6 месяцев от нас - отличная цена, Вам - здоровое тело и хорошее
+                        настроение. Также будут доступны дыхательные практики и медитация (подборка музыки и
+                        медитативные практики голосом).
+                    </div>
+                    <div class="products-item-extra">
+
+                        <div class="products-item-price">7800₽</div>
+
+                        <button class="violet-button">Купить абонемент</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="product-item">
+                <div class="products-item-image">
+                    <img src="./Static/Images/yoga_6.jpg" alt="">
+                </div>
+                <div class="products-item-details">
+                    <div class="products-item-title">
+                        Пилатес профи - 6 месяцев
+                    </div>
+                    <div class="products-item-text">
+                        Для абонемента на 6 месяцев от нас - отличная цена, Вам - здоровое тело и хорошее
+                        настроение. Также будут доступны дыхательные практики и медитация (подборка музыки и
+                        медитативные практики голосом).
+                    </div>
+                    <div class="products-item-extra">
+
+                        <div class="products-item-price">7800₽</div>
+
+                        <button class="violet-button">Купить абонемент</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="product-item">
+                <div class="products-item-image">
+                    <img src="./Static/Images/line-drawing-of-young-9.jpg" alt="">
+                </div>
+                <div class="products-item-details">
+                    <div class="products-item-title">
+                        Полезная привычка - 6 месяцев
+                    </div>
+                    <div class="products-item-text">
+                        Абонемент на 6 месяцев от нас - отличная цена, Вам - здоровое тело и хорошее
+                        настроение. Также будут доступны дыхательные практики и медитация (подборка музыки и
+                        медитативные практики голосом).
+                    </div>
+                    <div class="products-item-extra">
+
+                        <div class="products-item-price">6000₽</div>
+
+                        <button class="violet-button">Купить абонемент</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+
+        <img src="./Static/Images/line3.png" alt="line3" class="line3">
+        <img src="./Static/Images/line3.png" alt="line3" class="line2">
+
+    </section>
+
+
+
+
+</body>
+
+</html>
