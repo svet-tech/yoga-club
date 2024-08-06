@@ -967,20 +967,28 @@ overflow: hidden;
         border-top-left-radius: 7px;
         border-bottom-left-radius: 3px;
         border-top-right-radius: 3px;
+transition: 2s;
+        
     }
 
     .tgimg:hover {
         background-image: url(./images/1ccb75s-96\ c.jpg);
+transition: 2s;
+        
     }
 
     .instaimg {
         background-image: url(./images/insta_gray.png);
         width: 60px;
         height: 60px;
+transition: 2s;
+        
     }
 
     .instaimg:hover {
         background-image: url(./images/insta.png);
+transition: 2s;
+        
     }
 
 
@@ -988,9 +996,11 @@ overflow: hidden;
         background-image: url(./images/youtube_gray.png);
         width: 60px;
         height: 60px;
+transition: 2s;
+        
     }
 
     .youtubeimg:hover {
         background-image: url(./images/youtube.png);
-
+transition: 2s;
     }
